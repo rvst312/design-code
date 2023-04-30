@@ -1,4 +1,5 @@
 using System;
+
 public class Orders {
     private int numOrder;
     private string dateOrder;
@@ -22,6 +23,7 @@ public class Orders {
         }
     }
     private class WishList : Cart {
+   
         private string products;
         private int amount;
 
