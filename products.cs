@@ -14,10 +14,26 @@ public class Products {
     public AddCategory() {
         return null;
     }
-    public AddScategory() {
+    public AddSubCategory() {
         return null;
     }
     public AddTag() {
         return null;
     }
+}
+
+public class ProdSimple : Products {
+    private string typology;
+    private AddTypology() {
+        return null;
+    }
+
+}
+public class ProdComlejo : Products {
+    private string typology;
+    private AddTypology() {
+        return null;
+    }
+    
+
 }
